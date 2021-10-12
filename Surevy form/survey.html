@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surevy Form</title>
+    <link href="survey.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="banner-image">
+        <div class="header">
+          <h3>Surevy Form</h3>
+          <p style="color: rgb(192, 190, 190)">
+            thank you for taking the time to help of us improve the platform
+          </p>
+        </div>
+        <div class="inner-banner-image">
+          <div class="banner-content">
+            <div>
+              <!-- <h1>We sell lifestyle.</h1>
+              <p style="margin-bottom: 20px">Flat 40% OFF on premium brands</p>
+              <a class="button">Shop Now</a> -->
+              <div>
+                <form action="/action_page.php">
+                  <label for="fname" style="text-align: left">First Name</label
+                  ><br />
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Enter your name."
+                    required="Please"
+                  /><br />
+                  <label for="email">Enter your email</label><br />
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    name="email"
+                    required="Please"
+                  />
+                  <br />
+                  <label for="lname">Age(optional)</label><br />
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Age"
+                  /><br />
+                  <label for="cars" placeholder="Select current role"
+                    ><br />which option best describes your current role?</label
+                  >
+                  <select id="role" name="role">
+                    <option value="Frontend">Frontend devloper</option>
+                    <option value="saab">backend devloper</option>
+                    <option value="fiat" selected>Database</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <p>whould you recommend to a friend</p>
+                    <input type="radio" id="op" name="click" value="op" />  
+                  <label for="option">Definitely</label><br />
+                    <input type="radio" id="op" name="click" value="op" />  
+                  <label for="option">not sure</label><br />
+
+                  <p>any comment or suggestion ?</p>
+                   <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="enter your comment here">
+                     enter your comment here..
+                    </textarea>
+                  <input type="submit" value="Submit" />
+                </form>
+                <!-- <form>
+                    <div class="f1">
+                        <label for="FirstName" style="text-align: left;" >Name</label><br>
+                        <input type="text" id="FirstName" placeholder="Enter First Number" name="FirstName" />      
+                    </div>
+                </form> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
